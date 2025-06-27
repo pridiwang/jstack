@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+ 
 }
 
 .logo {
@@ -17,7 +17,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+table td{border:1 px solid #ddd;padding:0.1em;}
+table thead tr td{text-transform: uppercase;}
+nav ul{flex-direction: row;justify-content: space-between;}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
